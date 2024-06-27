@@ -1,4 +1,4 @@
-let score = "priyanka"
+/*let score = "priyanka"
 
 //console.log(typeof score);
 //console.log(typeof(score)) //or we can write it as a method
@@ -23,8 +23,55 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "priyanka" => true
 
-let someNumber = 33
+let someNumber = 33*/
 
-let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//let stringNumber = String(someNumber)
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+//************************ Operations *******************//
+
+let Value = 3
+let negValue = -Value
+//console.log(negValue);
+
+/*console.log(2 + 2); (basic operations)
+console.log(2 - 2);
+console.log(2 * 2);
+console.log(2 ** 3);
+console.log(2 / 3);
+console.log(2 % 3);*/
+
+// To join strings
+
+let str1 = "hello"
+let str2 = " priyanka"
+
+let str3 = str1 + str2
+console.log(str3);
+
+// Problem is here
+
+/*console.log("1" + 2) //o/p 12
+console.log(1 + "2") // 12
+console.log("1" + 2 + 2) // 122
+console.log(1 + 2 + "2")  //32
+
+console.log( (3 + 4) * 5 % 3); //paranthesis is must*/
+
+//tricy or special type of conversion
+
+/*console.log(true)  //true
+console.log(+true) //1
+console.log(true+) //error
+console.log(+"") //0*/
+
+// this operation is done everywhere 
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
